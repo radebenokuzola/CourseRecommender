@@ -1,5 +1,5 @@
 import { RecommendationResult } from '../types';
-import { availableSubjects } from '../data/subjects';
+// import { availableSubjects } from '../data/subjects';
 
 interface RecommendationListProps {
   recommendations: RecommendationResult[];
