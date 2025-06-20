@@ -1,15 +1,16 @@
 import { RecommendationResult } from '../types';
-import { availableSubjects } from '../data/subjects';
+// import { availableSubjects } from '../data/subjects';
 
 interface RecommendationListProps {
   recommendations: RecommendationResult[];
 }
 
 export function RecommendationList({ recommendations }: RecommendationListProps) {
-  const getSubjectName = (subjectCode: string) => {
+  /* const getSubjectName = (subjectCode: string) => {
     const subject = availableSubjects.find(s => s.code === subjectCode);
     return subject ? subject.name : subjectCode;
   };
+  */
 
   return (
     <div className="space-y-6">
