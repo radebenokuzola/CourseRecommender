@@ -6,11 +6,6 @@ interface RecommendationListProps {
 }
 
 export function RecommendationList({ recommendations }: RecommendationListProps) {
-  /* const getSubjectName = (subjectCode: string) => {
-    const subject = availableSubjects.find(s => s.code === subjectCode);
-    return subject ? subject.name : subjectCode;
-  };
-  */
 
   return (
     <div className="space-y-6">
